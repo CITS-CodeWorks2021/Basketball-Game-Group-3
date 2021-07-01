@@ -25,7 +25,7 @@ public class ScoreScript : MonoBehaviour
         if (Coin.tag == "MyCoin")
         {
             ScoreNum += 1;
-            Destroy(Coin.gameObject);
+            Destroy(Coin.gameObject); // delete this for it to stay once you hit it. //
             MyscoreText.text = "Score : " + ScoreNum;
         }
 
