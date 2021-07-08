@@ -7,6 +7,6 @@ public class PlayGame : MonoBehaviour
 {
     public void StartGame() 
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 4);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 6);
     }
 }

@@ -17,4 +17,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/BallBounce.unity
     guid: 1789f51997d11c14d9f42e2fd36c0bff
+  - enabled: 1
+    path: Assets/Scenes/Hoop and court recoloration.unity
+    guid: 3258345fcad1347a3a06a3dd35e3d75b
+  - enabled: 1
+    path: Assets/Scenes/Hoop, and background.unity
+    guid: 774df6230425e49e49c4d2802ae4276c
+  - enabled: 1
+    path: Assets/Scenes/Final Project!.unity
+    guid: 6372541bf596e8946ae585095bf920d4
   m_configObjects: {}

@@ -26,9 +26,19 @@ public class Timer : MonoBehaviour
         string minutes = ((int)t / 60).ToString();
         string seconds = (t % 60).ToString("f2");
 
-        if ((t % 60) > 10)
+        if ((t % 60) > 20)
         {
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex -4);
+            timerText.color = Color.yellow;
+        }
+
+        if ((t % 60) > 25)
+        {
+            timerText.color = Color.red;
+        }
+
+        if ((t % 60) > 30)
+        {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 6);
         }
 
         timerText.text = minutes + ":" + seconds;
